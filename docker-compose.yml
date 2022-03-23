@@ -1,0 +1,15 @@
+version: "3.3"
+services:
+  test_container:
+    image: "development:v1"
+    build: .
+    ports:
+      - "20:22"
+      - "40000:40000"
+      - "8800:8888"
+    volumes:
+      - "../share_files:/mount"
+      - "./src:/home/development/src"
+    command: >
+      bash -c "/usr/sbin/sshd
+      && jupyter-lab --ip=0.0.0.0 --no-browser  --allow-root"
