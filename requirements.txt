@@ -8,6 +8,7 @@ python-dateutil
 scikit-learn
 scipy
 Flask
+streamlit
 
 # Brotli==1.0.9
 # click==8.0.1
