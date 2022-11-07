@@ -8,8 +8,23 @@ python-dateutil
 scikit-learn
 scipy
 Flask
+flask-restful
 streamlit
-
+pandas_ta
+TA-Lib
+yfinance
+#vectorbt
+finta
+ta
+TAcharts
+backtrader
+backtesting
+Flask
+urllib3
+beautifulsoup4
+tweepy
+nltk
+regex
 # Brotli==1.0.9
 # click==8.0.1
 # cycler==0.10.0
